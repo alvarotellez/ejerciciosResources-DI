@@ -6,31 +6,7 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
-    
-    <Page.Resources>
-        <!--ESTO IRIA EN EL DICCIONARIO DE RECURSOS-->
-        <!--Ejercicio 1-->
-        <!--El estilo general no lleva x:key-->
-        <Style TargetType="Button">
-            <Setter Property="Button.Background" Value="Yellow" />
-            <Setter Property="Button.FontFamily" Value="Times New Roman" />
-            <Setter Property="Button.Padding" Value="10" />
-            <Setter Property="Button.Margin" Value="20"/>
-        </Style>
-        <!--Ejercicio 2. Heredan del Style general-->
-        <Style x:Key="estiloBase" TargetType="Button">
-            <Setter Property="Button.Background" Value="Yellow" />
-            <Setter Property="Button.FontFamily" Value="Times New Roman" />
-            <Setter Property="Button.Padding" Value="10" />
-            <Setter Property="Button.Margin" Value="20"/>
-        </Style>
-        <Style x:Key="styleEje2" BasedOn="{StaticResource estiloBase}" TargetType="Button">
-            <Setter Property="Button.Foreground" Value="Green" />
-        </Style>
-    </Page.Resources>
-
-    
-    
+     
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <StackPanel Orientation="Vertical">
             <!--Botones Ejercicio 1-->
