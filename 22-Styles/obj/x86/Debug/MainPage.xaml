@@ -1,0 +1,20 @@
+﻿<Page
+    x:Class="_22_Styles.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:_22_Styles"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+     
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <StackPanel Orientation="Vertical">
+            <!--Botones Ejercicio 1-->
+            <Button x:ConnectionId='1' x:Name="btn1" Content="BOTON 1 CON ESTILO EN EL PAGE" HorizontalAlignment="Center"/>
+            <Button x:ConnectionId='2' x:Name="btn2" Content="BOTON 2 CON ESTILO EN EL PAGE" HorizontalAlignment="Center"/>
+            <!--Boton Ejercicio 2-->
+            <Button x:ConnectionId='3' x:Name="btn3" Content="BOTON 3 - EJERCICIO 2"  HorizontalAlignment="Center" Style="{StaticResource styleEje2}"/>
+        </StackPanel>
+    </Grid>
+</Page>
+

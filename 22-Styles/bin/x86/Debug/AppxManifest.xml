@@ -37,7 +37,7 @@
     <build:Item Name="VisualStudioEdition" Value="Microsoft Visual Studio Enterprise 2015" />
     <build:Item Name="OperatingSystem" Version="10.0.14393.0 (rs1_release.160715-1616)" />
     <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="14.0.25431.1" />
-    <build:Item Name="ProjectGUID" Value="{f3ace03a-85ef-4a1a-8e31-b7b631f8dd3b}" />
+    <build:Item Name="ProjectGUID" Value="{F3ACE03A-85EF-4A1A-8E31-B7B631F8DD3B}" />
     <build:Item Name="OptimizingToolset" Value="None" />
     <build:Item Name="TargetRuntime" Value="Managed" />
     <build:Item Name="Microsoft.Windows.UI.Xaml.Build.Tasks.dll" Version="14.0.25527.1" />
